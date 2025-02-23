@@ -1,0 +1,1 @@
+export  const myUseContext = (context: any) => {}

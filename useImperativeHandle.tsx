@@ -1,0 +1,1 @@
+export const myUseImperativeHandle = (value: any) => {}

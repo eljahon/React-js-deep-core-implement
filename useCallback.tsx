@@ -1,0 +1,1 @@
+export const myUseCallback = (callback: () => void, deps: any[]) => {}

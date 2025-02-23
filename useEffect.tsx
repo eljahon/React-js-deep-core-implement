@@ -1,8 +1,6 @@
 // useEffect komponent yuklanganda yoki dependensiyalar (deps) 
 // o‘zgarganda bajariladigan yon effektlarni bajarish 
-// uchun ishlatiladi.
-
-// ComponentMount ComponentUpdate ComponentUnmount
+// uchun ishlatiladi. ComponentMount ComponentUpdate ComponentUnmount
 // useEffect(() => {
 //     // ComponentMount
 //     return () => {
@@ -34,4 +32,5 @@ export const myUseEffect = (callback: () => void, deps: any[]) => {
       prevDeps.current = deps;
     }
   }
+
 }

@@ -1,0 +1,1 @@
+export const myUseLayoutEffect = (effect: () => void, deps: any[]) => {}

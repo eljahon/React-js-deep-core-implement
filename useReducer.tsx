@@ -1,0 +1,1 @@
+export const myUseReducer= (reducer: any, initialState: any, init: any) => {}
